@@ -1,68 +1,102 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🎬 Movies Watchlist
 
-## Available Scripts
+A Movie Watchlist Application that allows users to search, save, and manage their favorite movies. Built with React.js (frontend) and Node.js/Express.js (backend), this app provides an interactive and seamless user experience for movie lovers.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `yarn start`
+🔍 Search for Movies – Fetch movie details from an external API.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+📌 Add to Watchlist – Save movies for future viewing.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+✅ Mark as Watched – Keep track of watched movies.
 
-### `yarn test`
+🗑️ Remove from Watchlist – Delete unwanted entries.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎨 User-Friendly UI – Responsive and visually appealing design.
 
-### `yarn build`
+🔐 User Authentication – Secure login and registration (optional).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tech Stack
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Frontend: React.js, Tailwind CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend: Node.js, Express.js
 
-### `yarn eject`
+Database: MongoDB (if using persistent storage)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+API: TMDB API / OMDB API (for fetching movie data)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+State Management: Redux / Context API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Authentication: Firebase Auth / JWT (optional)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📁 Project Structure
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+/Movies-watchlist
 
-### Code Splitting
+│── /frontend       # React.js app (UI & Components)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+│── /backend        # Node.js & Express.js (API & DB)
 
-### Analyzing the Bundle Size
+│── /public         # Static assets
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+│── /database       # MongoDB schema (if applicable)
 
-### Making a Progressive Web App
+│── README.md       # Documentation
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## 🚀 Installation & Setup
 
-### Advanced Configuration
+### 1️⃣ Clone the Repository
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+git clone https://github.com/abhinav744/Movies-watchlist.git
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+cd Movies-watchlist
 
-### `yarn build` fails to minify
+### 2️⃣ Frontend Setup (React.js)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+cd frontend
+
+npm install
+
+npm start
+
+### 3️⃣ Backend Setup (Node.js & Express.js)
+
+
+
+cd backend
+
+npm install
+
+node server.js
+
+### 4️⃣ Run the Application
+
+Frontend runs on http://localhost:3000/
+
+Backend API runs on http://localhost:5000/
+
+## 📌 How to Use
+
+Search for a movie using the search bar.
+
+Click "Add to Watchlist" to save the movie.
+
+Mark movies as watched or remove them from the list.
+
+Enjoy a personalized movie collection!
+
+## 📌 Contributing
+
+Contributions are welcome! Feel free to:
+
+✅ Fork the repository
+
+✅ Create a new branch
+
+✅ Make changes and submit a pull request
+
